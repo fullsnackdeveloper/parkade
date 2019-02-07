@@ -1,8 +1,8 @@
-# parkade
+# Parkade
 
-##Docs
+## Docs
 
-### /api/payments/:ticketId
+###### /api/payments/:ticketId
 send
 `{
   credit_card_number: '4242 4242 4242 4242',
