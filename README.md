@@ -3,7 +3,8 @@
 ## Docs
 
 ###### /api/tickets
-get
+
+get returns
 ```
 [
     {
@@ -24,9 +25,7 @@ get
 ...
 ````
 
-post
-
-returns
+post returns
 ```
 {
     "date_created": "2019-02-07T22:03:46.443Z",
@@ -37,8 +36,19 @@ returns
 }
 ```
 
+###### /api/tickets/:ticketId
+
+get returns
+```
+{
+    "ticket_number": "71Be4tu4H",
+    "amount_owing": "0.07"
+}
+```
+
 
 ###### /api/payments/:ticketId
+
 post
 
 send
