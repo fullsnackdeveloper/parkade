@@ -2,7 +2,45 @@
 
 ## Docs
 
+###### /api/tickets
+get
+```
+[
+    {
+        "date_created": "2019-02-07T21:16:40.269Z",
+        "paid": false,
+        "_id": "5c5ca0cb40ec7a229610b451",
+        "ticket_number": "8vewYcCqg",
+        "__v": 0
+    },
+    {
+        "date_created": "2019-02-07T21:20:12.281Z",
+        "paid": false,
+        "_id": "5c5ca115942bf522c66bab98",
+        "ticket_number": "1t09vJyqa",
+        "__v": 0
+    },
+    
+...
+````
+
+post
+
+returns
+```
+{
+    "date_created": "2019-02-07T22:03:46.443Z",
+    "paid": false,
+    "_id": "5c5cad03fb2a3c26eeca1eee",
+    "ticket_number": "71Be4tu4H",
+    "__v": 0
+}
+```
+
+
 ###### /api/payments/:ticketId
+post
+
 send
 ```
 {
